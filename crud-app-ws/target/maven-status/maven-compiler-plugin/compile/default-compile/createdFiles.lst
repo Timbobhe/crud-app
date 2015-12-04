@@ -1,0 +1,8 @@
+fr/esiag/isidis/rest/mapping/CarMapper.class
+fr/esiag/isidis/rest/model/CarRest.class
+fr/esiag/isidis/rest/mapping/CarMapperSelmaGeneratedClass.class
+fr/esiag/isidis/rest/exception/CustomExceptionMapper.class
+fr/esiag/isidis/rest/CarEndpoint.class
+fr/esiag/isidis/rest/RestApplication.class
+fr/esiag/isidis/rest/RestSecuredImpl.class
+fr/esiag/isidis/rest/RestSecured.class

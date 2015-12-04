@@ -14,10 +14,10 @@
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
-			<groupId>fr.esiag.isidis</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>crud-app-service</artifactId>
 			<type>ejb</type>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>

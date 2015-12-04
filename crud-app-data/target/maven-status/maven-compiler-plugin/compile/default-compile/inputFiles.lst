@@ -1,0 +1,6 @@
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/dao/Crud.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/model/Car.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/model/util/SortOrder.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/model/BaseEntity.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/model/util/Filter.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-data/src/main/java/fr/esiag/isidis/data/dao/CrudService.java

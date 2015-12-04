@@ -8,11 +8,12 @@
 		<artifactId>crud-app</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>crud-app-common</artifactId>
+	<artifactId>${project.groupId}</artifactId>
 	<packaging>jar</packaging>
 	<name>crud-app-common</name>
 	<url>http://maven.apache.org</url>
 	
 	<dependencies>
+	
 	</dependencies>
 </project>

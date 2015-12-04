@@ -11,38 +11,45 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+			
+	<!-- Declaration des dépendances Deltaspike n'est pas optimale -->
 
-	<dependencies>
-		<dependency>
-			<groupId>org.apache.deltaspike.core</groupId>
-			<artifactId>deltaspike-core-impl</artifactId>
-			<version>1.5.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.deltaspike.core</groupId>
-			<artifactId>deltaspike-core-api</artifactId>
-			<version>1.5.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
-			<artifactId>deltaspike-jsf-module-api</artifactId>
-			<version>1.5.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
-			<artifactId>deltaspike-jsf-module-impl</artifactId>
-			<version>1.5.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
-			<artifactId>deltaspike-security-module-api</artifactId>
-			<version>1.5.1</version>
-		</dependency>
+       <dependencyManagement>
+   <dependencies>
+     <dependency>
+       <groupId>${project.groupId}</groupId>
+       <artifactId>deltaspike-core-impl</artifactId>
+       <version> ${project.version}</version>
+     </dependency>
+     
+      <dependency>
+       <groupId>${project.groupId}</groupId>
+       <artifactId>deltaspike-core-api</artifactId>
+       <version> ${project.version}</version>
+     </dependency>
+     
+      <dependency>  
+       <groupId>${project.groupId}</groupId>
+       <artifactId>deltaspike-jsf-module-api</artifactId>
+       <version> ${project.version}</version>
+     </dependency>
+
+     <dependency> 
+       <groupId>${project.groupId}</groupId>
+       <artifactId>deltaspike-jsf-module-impl</artifactId>
+       <version> ${project.version}</version>
+     </dependency>
+   
+     <dependency>  
+       <groupId>${project.groupId}</groupId>
+       <artifactId>deltaspike-jsf-module-api</artifactId>
+       <version> ${project.version}</version>
+     </dependency>
 
 		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>deltaspike-security-module-impl</artifactId>
-			<version>1.5.1</version>
+			<version>${project.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -83,9 +90,34 @@
 			<version>1.6.2</version>
 			<scope>test</scope>
 		</dependency>
+		</dependencies>
+ </dependencyManagement>
 
-	</dependencies>
-
+ <!--  1- Configuration Maven  -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			
+		<!-- 2- Ignorer les tests unitaires  -->	
+			<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.12.2</version>
+        <configuration>
+          <skipTests>true</skipTests>
+        </configuration>
+      </plugin>
+   
+		</plugins>
+	</build>
 
 
 	<modules>

@@ -1,0 +1,5 @@
+fr/esiag/isidis/web/exception/CustomExceptionHandler.class
+fr/esiag/isidis/web/exception/CustomExceptionHandlerFactory.class
+fr/esiag/isidis/web/converter/EntityConverter.class
+fr/esiag/isidis/web/bean/CarBean.class
+fr/esiag/isidis/web/bean/CarBean$1.class

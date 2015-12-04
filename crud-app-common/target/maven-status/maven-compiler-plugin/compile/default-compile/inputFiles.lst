@@ -1,0 +1,7 @@
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/security/CustomAuthorizer.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/exception/CustomException.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/util/ServletRequestHolder.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/security/Admin.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/annotation/Config.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/util/Assert.java
+/media/timbobhe/01CF98D6C46488E0/isidis/crud-app/crud-app-common/src/main/java/fr/esiag/isidis/common/security/Guest.java

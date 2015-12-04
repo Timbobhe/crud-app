@@ -1,0 +1,7 @@
+fr/esiag/isidis/common/util/Assert.class
+fr/esiag/isidis/common/util/ServletRequestHolder.class
+fr/esiag/isidis/common/security/CustomAuthorizer.class
+fr/esiag/isidis/common/security/Guest.class
+fr/esiag/isidis/common/annotation/Config.class
+fr/esiag/isidis/common/security/Admin.class
+fr/esiag/isidis/common/exception/CustomException.class

@@ -1,0 +1,6 @@
+fr/esiag/isidis/data/model/BaseEntity.class
+fr/esiag/isidis/data/model/util/Filter.class
+fr/esiag/isidis/data/dao/Crud.class
+fr/esiag/isidis/data/model/util/SortOrder.class
+fr/esiag/isidis/data/dao/CrudService.class
+fr/esiag/isidis/data/model/Car.class
